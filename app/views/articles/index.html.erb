@@ -1,0 +1,13 @@
+<div class="container">
+
+<h1>WikiArticles</h1>
+
+
+<% @articles.each do |article|%>
+<div class="article">
+<h3><%= article.title  %></h3>
+<p><%= article.content  %></p>
+</div>
+<% end %>
+
+</div> <!-- end container -->
